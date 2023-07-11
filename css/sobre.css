@@ -1,0 +1,35 @@
+.sobre{ 
+padding: 64px;
+
+background:  #117a65;
+
+}
+.sobre__container{
+    display: flex;
+
+flex-direction: column;
+
+gap: 16px;
+}
+.sobre__titulo{
+    color:  #ffffff;
+font-size: 32px;
+font-family: Raleway;
+font-weight: 700;
+}
+.sobre__parrafo{
+    display: flex;
+flex-direction: column;
+color:  #ffffff;
+text-align: justify;
+font-size: 16px;
+font-family: Raleway;
+}
+
+
+@media (width <= 767px) {
+    .sobre__container{
+        display: flex;
+        align-items: center;
+    }
+}

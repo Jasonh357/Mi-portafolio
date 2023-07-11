@@ -10,7 +10,10 @@
 .titulo__perfil {
     float: right;
     padding: 50px 0;
-
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    filter: grayscale();
 }
 
 .titulo__container {

@@ -49,7 +49,7 @@ function mostrarMensajeDeError(tipoDeInput, input ) {
 const btn = document.querySelector('[data-btn]');
 
 
-btn.addEventListener("click", function(evento) {
+/*btn.addEventListener("click", function(evento) {
 
  
-})
+})*/

@@ -57,7 +57,7 @@ list-style: none;
     font-weight: 700;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 766px) {
     .hobbies__line{
         display: flex;
         flex-wrap: wrap;

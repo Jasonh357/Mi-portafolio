@@ -4,6 +4,7 @@ padding: 64px;
 flex-direction: column;
 align-items: center;
 gap: 10px;
+max-width: 100%;
 background:linear-gradient(#16a085,#45b39d);
 }
 .formcontacto__contacto{
@@ -11,6 +12,7 @@ display: flex;
 padding: 64px 0px 0px 0px;
 align-items: center;
 gap: 16px;
+width: auto;
 }
 .formcontacto__img{
 width: 464px;
@@ -142,15 +144,30 @@ border-radius: 5px;
 }
 
 
-@media (width <= 767px){
+@media only screen and (max-width: 480px){
+    .formulario{
+        width: 100%;
+    }
+    .formcontacto__texto{
+        width: 100%;
+    }
+    .input , .formcontacto__textarea{
+        width: auto;
+    }
+    
+    
+    .formcontacto{
+        display: block  ;
+    }
+    
     .formcontacto__contacto{
-        display: flex;
         flex-direction: column;
-       
+     
     }
     .formcontacto__img{
        display: none;
     }
+    
 }
 
 

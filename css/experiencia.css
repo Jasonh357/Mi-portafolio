@@ -86,9 +86,9 @@ cursor: pointer;
 }
 
 
-@media (width <= 767px){
+@media only screen and (max-width: 480px){
     .experiencia__img{
-        width: 400px;
+      max-width: 90%;
     }   
     .experiencia__caja{
         display: flex;

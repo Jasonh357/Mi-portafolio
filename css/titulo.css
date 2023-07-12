@@ -75,19 +75,24 @@
     padding-right: 5px;
 }
 
-@media (width <= 767px)
+@media only screen and (max-width: 480px)
  {
     .titulo__div{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding: 0;
+        width: 100%;
       
     }
     .titulo__perfil{
         padding: 0;
         float: none;
+        width: auto;
      
+    }
+    .titulo__container{
+        width: 100%;
     }
     .titulo__bio{
         text-align: center;
@@ -99,6 +104,9 @@
     }
     .titulo__network{
         padding: 0 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 

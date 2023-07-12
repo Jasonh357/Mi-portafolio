@@ -46,7 +46,7 @@
 }
 
 
-@media (width <= 767px) {
+@media only screen and (max-width: 480px) {
     .menu{
         display: flex;
         flex-direction: column;

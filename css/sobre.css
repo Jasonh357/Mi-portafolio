@@ -1,34 +1,37 @@
-.sobre{ 
-padding: 64px;
+.sobre {
+    padding: 64px;
 
-background:  #117a65;
+    background: #117a65;
 
 }
-.sobre__container{
+
+.sobre__container {
     display: flex;
 
-flex-direction: column;
+    flex-direction: column;
 
-gap: 16px;
+    gap: 16px;
 }
-.sobre__titulo{
-    color:  #ffffff;
-font-size: 32px;
-font-family: Raleway;
-font-weight: 700;
+
+.sobre__titulo {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
 }
-.sobre__parrafo{
+
+.sobre__parrafo {
     display: flex;
-flex-direction: column;
-color:  #ffffff;
-text-align: justify;
-font-size: 16px;
-font-family: Raleway;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Raleway;
 }
 
 
 @media only screen and (min-width: 320px) and (max-width: 766px) {
-    .sobre__container{
+    .sobre__container {
         display: flex;
         align-items: center;
     }

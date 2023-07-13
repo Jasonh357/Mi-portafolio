@@ -1,9 +1,10 @@
 .titulo {
     display: flex;
-    background: linear-gradient(#0b5345,#117a65);
+    background: linear-gradient(#0b5345, #117a65);
 }
-.titulo__div{
- 
+
+.titulo__div {
+
     padding-right: 30px;
 }
 
@@ -57,8 +58,8 @@
     list-style: none;
 }
 
-.titulo__network__item  a  {
-      display: flex;
+.titulo__network__item a {
+    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     color: #ffffff;
@@ -66,43 +67,48 @@
     font-family: Raleway;
     font-weight: 500;
     text-decoration: none;
-  
-   
+
+
 }
-.titulo__imagen{
+
+.titulo__imagen {
     width: 15px;
     height: 15px;
     padding-right: 5px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 766px)
- {
-    .titulo__div{
+@media only screen and (min-width: 320px) and (max-width: 766px) {
+    .titulo__div {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding: 0;
         width: 100%;
-      
+
     }
-    .titulo__perfil{
+
+    .titulo__perfil {
         padding: 0;
         float: none;
         width: auto;
-     
+
     }
-    .titulo__container{
+
+    .titulo__container {
         width: 100%;
     }
-    .titulo__bio{
+
+    .titulo__bio {
         text-align: center;
         padding: 0;
     }
-    .titulo__descripcion{
+
+    .titulo__descripcion {
         text-align: center;
         padding: 0;
     }
-    .titulo__network{
+
+    .titulo__network {
         padding: 0 50px;
         display: flex;
         flex-wrap: wrap;
@@ -112,20 +118,19 @@
 
 
 
-@media (767px <= width <= 1023px) {
-    .titulo__div{
+@media (767px <=width <=1023px) {
+    .titulo__div {
         display: flex;
         flex-direction: row-reverse;
     }
-    .titulo__perfil{
+
+    .titulo__perfil {
         width: 250px;
         height: 250px;
         padding-top: 50px;
     }
-    .titulo__bio{
+
+    .titulo__bio {
         padding-top: 50px;
     }
 }
-
-
-
